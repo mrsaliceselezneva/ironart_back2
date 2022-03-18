@@ -1,0 +1,9 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Number:</strong>
+  <%= @next_question.number %>
+</p>
+
+<%= link_to 'Edit', edit_next_question_path(@next_question) %> |
+<%= link_to 'Back', next_questions_path %>
